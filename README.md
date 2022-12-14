@@ -1,4 +1,4 @@
-#React MERN Dashboard App
+# React MERN Dashboard App
 
 This project is from a code along on youtube by EdRoh.
 
