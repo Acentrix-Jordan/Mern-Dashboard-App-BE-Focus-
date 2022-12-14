@@ -11,29 +11,30 @@ I have not just blindly followed this tutorial and have rewatched many sections 
 You will see there is a lot of comments on the build. This is for my own knowledge and so I can reference the code in future.
 
 ## Backend Tech Stack
-Express -> Framework for our API's
-Body Parser -> Parsing our data coming in
-cors -> Cross Origin Resource Sharing
-dotenv -> Enviroment Variables
-helmet -> Protecting API's
-morgan -> Logging our API calls
-mongoose -> Handling Mongoose DB Calls
-Nodemon -> Live Server Reload
+- Express -> Framework for our API's
+- Body Parser -> Parsing our data coming in
+- cors -> Cross Origin Resource Sharing
+- dotenv -> Enviroment Variables
+- helmet -> Protecting API's
+- morgan -> Logging our API calls
+- mongoose -> Handling Mongoose DB Calls
+- Nodemon -> Live Server Reload
 
 ## Frontend Tech Stack
-React
-React Redux
-Redux JS Toolkit
-React Datepicker
-React Router DOM @ 6
-@mui/material
-@mui/icons-material
-@mui/x-data-grid
-@emotion/react
-@emotion/styled
-@nivo/core
-@nivo/bar
-@nivo/geo
-@nivo/pie
+- React
+- React Redux
+- Redux JS Toolkit
+- React Datepicker
+- React Router DOM @ 6
+- @mui/material
+- @mui/icons-material
+- @mui/x-data-grid
+- @emotion/react
+- @emotion/styled
+- @nivo/core
+- @nivo/bar
+- @nivo/geo
+- @nivo/pie
 
-https://www.youtube.com/watch?v=0cPCMIuDk2I&t=422
+Credit to EdRoh for making this walkthrough accessible for free.
+The walkthrough can be found at: https://www.youtube.com/watch?v=0cPCMIuDk2I&t=422
