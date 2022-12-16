@@ -35,6 +35,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import FlexBetween from "./FlexBetween";
 import profileImage from "assets/profile.jpg";
 
+// Move this data to a seperate JSON file to keep code clean
 const navItems = [
   {
     text: "Dashboard",
