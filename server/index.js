@@ -12,6 +12,10 @@ import clientRoutes from "./routes/client.js";
 import managementRoutes from "./routes/management.js";
 import salesRoutes from "./routes/sales.js";
 
+/* Data Imports */
+import User from "./models/User.js";
+import { dataUser } from "./data/index.js";
+
 /* Configuration */
 dotenv.config();
 const app = express();
@@ -57,6 +61,7 @@ const PORT = process.env.PORT || 9000;
     We use mongoose.connect and pass it the URL we set in the .env file,
     the second parameter is an object of setup parameters
 */
+
 mongoose
   .connect(process.env.MONGO_URL, {
     useNewURLParser: true,
@@ -64,6 +69,9 @@ mongoose
   })
   .then(() => {
     app.listen(PORT, () => console.log(`Server running on port: ${PORT}`));
+
+    /* Only add the data one time */
+    User.insertMany(dataUser);
   })
   .catch((error) => {
     console.log(`${error}`);
